@@ -1,0 +1,239 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"Gabarito", sans-serif ;
+}
+.notification{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #5022C3;
+    color: white;
+}
+.notification a{
+    text-decoration: underline;
+    text-decoration-color:#AF72FD ;
+    text-underline-offset: 4px;
+    color: white;
+    margin-left: 5px;
+}
+.navbar{
+    padding:5px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.navbar__s1__title{
+    color:#A435F0
+}
+.navbar__s1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+.navbar__s2{
+    display: flex;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 50%;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: None;
+    width: 100%;
+    font-size: 16px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.navbar__s1 p, .navbar__s3 p,i{
+    padding: 10px;
+}
+.navbar__s1 p:hover, .navbar__s3 p:hover, .navbar__s3 i:hover{
+    background-color: #EDE5F9;
+    color:#6D28D2 ;
+     cursor: pointer;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+   
+}
+.categories p:hover{
+    color: #5C31C7;
+    cursor: pointer;
+}
+.welcome{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.welcome__circle{
+    margin-top: 30px;
+    display:flex;
+     width: 75px;
+     height: 75px;
+     border-radius: 50%;
+     background-color: black;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+.welcome__circle {
+    font-size: 32px;
+}
+.welcome__desc a{
+    text-underline-offset: 3px;
+}
+.sale-image{
+    margin-top: 20px;
+}
+.sale-image img{
+    width: 100%;
+}
+.udemy-offer{
+    font-size: 20px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin-top:15px;
+    margin-left:30px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.udemy-offer__section{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-between;
+}
+.udemy-offer__section p{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.udemy-offer__section p:hover{
+    background-color: rgb(189, 189, 189);
+}
+.idea{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.recommended{
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.course-card{
+    width: 250px;
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+.course-card h3,.course-card p{
+    margin: 0;
+    padding: 2px;
+}
+.course-card__author{
+    font-weight: 100;
+    font-size: 15px;
+    color: grey;
+}
+.course-card__meta{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.course-card__meta__premium{
+    text-align: center;
+    width: 45%;
+    background-color: #5022C3;
+    color:#FFFFFB;
+    border-radius: 1%;
+}
+.check{
+    padding: 10px;
+}
+.topics{
+    padding: 10px;
+    margin-left:30px;
+    margin-right: 20px;
+}
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 10px;
+}
+.topics__container p{
+    text-align: center;
+    margin: 0;
+    border: solid grey 2px;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+.topics__container p:hover{
+    background-color: #F6F7F9;
+}
+.popular{
+   padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top:10px;
+}
+.footer{
+    padding: 30px;
+    background-color:#2A2B3F;
+    color:#FFFFFF;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
